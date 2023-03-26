@@ -10,6 +10,8 @@ from .feed import NoMoreTweetsException
 import logging as logme
 
 import time
+import nest_asyncio
+nest_asyncio.apply()
 
 bearer = 'Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs' \
          '%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA'
